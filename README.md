@@ -11,7 +11,7 @@ We are going to send data from a sensor node to Geeny. The sensor is a Raspberry
 * Geeny Hub SDK installed and running on the Pi
 
 # Circuit
-![Fritzing Diagram of the Raspberry Pi with DHT22, PIR and Shutdown button](nanoMeetSensorNodeCircuit.png)
+![Fritzing Diagram of the Raspberry Pi with DHT22, PIR and Shutdown button](https://github.com/StefanHermannBerlin/NanoMeetSensorNode/blob/master/assets/nanoMeetSensorNodeCircuit.png)
 
 # Step 1
 
@@ -66,7 +66,7 @@ curl -H "Content-Type: application/json" -X POST \
 
 2. Register the thing the instance will use.
 Maybe you have to greate your own thing type since the one used in this example is not public.
-![Thing Type Structure](Thing-Type-ID)
+![Thing Type Structure](https://github.com/StefanHermannBerlin/NanoMeetSensorNode/blob/master/assets/Thing-Type-ID.png)
 
 ```bash
   curl -X POST \
